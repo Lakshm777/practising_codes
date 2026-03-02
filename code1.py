@@ -1,5 +1,5 @@
 ##Find the smallest number in an array
-def smallest_number(arr):
+'''def smallest_number(arr):
     if len(numbers)== 0:
         print(f"the length of the array is: {len(numbers)}")
         return None
@@ -13,4 +13,10 @@ def smallest_number(arr):
 
 
 numbers = [5,2,9,1,7]
-print(smallest_number(numbers))
+print(smallest_number(numbers))'''
+
+## OR
+
+numbers =[5,2,9,1,7]
+print(min(numbers))
+
